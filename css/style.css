@@ -16,31 +16,6 @@ h1 {
     margin: 1em;
 }
 
-nav {
-    /* font-size: 2rem; */
-    margin: 1em;
-}
-
-li {
-    list-style: none;
-}
-
-a:link {
-    color: #3399CC;
-}
-
-a:visited {
-    color: #336699;
-}
-
-a:hover {
-    color: #33A1FF;
-}
-
-a:active {
-    color: #66CCFF;
-}
-
 .profile-image {
     width: 20vw;
     aspect-ratio: 1;
@@ -50,4 +25,68 @@ a:active {
 
 .full-width {
     width: 75vw;
+}
+
+nav, section {
+    /* font-size: 2rem; */
+    margin: 7em;
+    border: 2px solid #fff;
+    border-radius: 2vw;
+    line-height: 4vw;
+    background-color: #333dc5;
+}
+
+nav h2 {
+    background-color: #333dc5;
+    border-radius: 2vw 2vw 0 0;
+}
+
+li {
+    list-style: none;
+    border-top: 2px solid #fff;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+}
+
+li:last-child a {
+    border-radius: 0 0 2vw 2vw;
+}
+
+li a:link {
+    background-color: rgb(80, 87, 189);
+    color: #fff;
+}
+
+li a:visited {
+    background-color: rgb(104, 109, 187);
+    color: #fff;
+}
+
+li a:hover {
+    background-color: rgb(41, 51, 185);
+    color: #fff;
+}
+
+li a:active {
+    background-color: rgb(18, 29, 180);
+    color: #fff;
+}
+
+a:link {
+    color: rgb(202, 183, 13);
+}
+
+a:visited {
+    color: rgb(186, 187, 104);
+}
+
+a:hover {
+    color: rgb(170, 185, 41);
+}
+
+a:active {
+    color: rgb(180, 169, 18);
 }
