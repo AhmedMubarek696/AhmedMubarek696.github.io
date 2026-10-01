@@ -11,6 +11,14 @@ body {
     color: #fff;
 }
 
+header div {
+    line-height: 3vw;
+    background-color: #333dc5;
+}
+
+header span {
+    margin: 0em 3em 0em 3em;
+}
 
 h1 {
     margin: 1em;
@@ -76,17 +84,17 @@ li a:active {
 }
 
 a:link {
-    color: rgb(202, 183, 13);
+    color: #FFE082;
 }
 
 a:visited {
-    color: rgb(186, 187, 104);
+    color: #FFD54F;
 }
 
 a:hover {
-    color: rgb(170, 185, 41);
+    color: #FFCA28;
 }
 
 a:active {
-    color: rgb(180, 169, 18);
+    color: #FFB300;
 }
