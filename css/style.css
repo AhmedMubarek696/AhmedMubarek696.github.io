@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +7,7 @@
 }
 
 body {
+    font-family: "Roboto", sans-serif;
     font-size: 1.5vw;
     text-align: center;
     background-color: #333;
@@ -13,7 +16,7 @@ body {
 
 header div {
     line-height: 3vw;
-    background-color: #333dc5;
+    background-color: #3366c5;
 }
 
 header span {
@@ -41,12 +44,39 @@ nav, section {
     border: 2px solid #fff;
     border-radius: 2vw;
     line-height: 4vw;
-    background-color: #333dc5;
+    background-color: #3366c5;
+}
+
+p {
+    line-height: 2vw;
+    margin: 1em;
 }
 
 nav h2 {
-    background-color: #333dc5;
+    background-color: #3366c5;
     border-radius: 2vw 2vw 0 0;
+}
+
+a {
+    color: #ffffff;
+    padding: .4vw;
+    border-radius: 1.5vw 1.5vw 1.5vw 1.5vw;
+}
+
+a:link {
+    background-color: #3366c5;
+}
+
+a:visited {
+    background-color: #3366c5;
+}
+
+a:hover {
+    background-color: #5e81c4;
+}
+
+a:active {
+    background-color: #8ca2cc;
 }
 
 li {
@@ -57,6 +87,8 @@ li {
 li a {
     display: block;
     text-decoration: none;
+    padding: 0vw;
+    border-radius: 0;
 }
 
 li:last-child a {
@@ -64,37 +96,26 @@ li:last-child a {
 }
 
 li a:link {
-    background-color: rgb(80, 87, 189);
+    background-color: #4171ca;
     color: #fff;
 }
 
 li a:visited {
-    background-color: rgb(104, 109, 187);
+    background-color: #6f8dc5;
     color: #fff;
 }
 
 li a:hover {
-    background-color: rgb(41, 51, 185);
+    background-color: #2860c7;
     color: #fff;
 }
 
 li a:active {
-    background-color: rgb(18, 29, 180);
+    background-color: #084dcc;
     color: #fff;
 }
 
-a:link {
-    color: #FFE082;
-}
-
-a:visited {
-    color: #FFD54F;
-}
-
-a:hover {
-    color: #FFCA28;
-}
-
-a:active {
-    color: #FFB300;
+.full-video {
+    width: 75vw;
+    height: 42vw;
 }
