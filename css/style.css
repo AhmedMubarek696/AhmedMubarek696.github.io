@@ -38,6 +38,14 @@ h1 {
     width: 75vw;
 }
 
+.grid-width {
+    width: 35vw;
+}
+
+.inline-item {
+    display: inline-block;
+}
+
 nav, section {
     /* font-size: 2rem; */
     margin: 7em;
@@ -119,3 +127,4 @@ li a:active {
     width: 75vw;
     height: 42vw;
 }
+
